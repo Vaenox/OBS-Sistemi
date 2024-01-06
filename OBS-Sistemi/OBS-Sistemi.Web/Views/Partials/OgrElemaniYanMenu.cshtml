@@ -1,0 +1,136 @@
+﻿<div class="sidebar">
+    <div class="sidebar-inner">
+        <div class="sidebar-logo">
+            <div class="d-flex align-items-center flex-nowrap">
+                <a class="sidebar-link text-decoration-none" href="#">
+                    <div class="d-flex align-items-center flex-nowrap">
+                        <div class="logo-sm">
+                            <div class="logo d-flex align-items-center justify-content-center">
+                                LOGO
+                            </div>
+                        </div>
+                        <div class="logo-text d-flex align-items-center justify-content-center">
+                            LOGO
+                        </div>
+                    </div>
+                </a>
+                <div class="">
+                    <div class="mobile-toggle sidebar-toggle">
+                        <a href="#" class="text-decoration-none">
+                            <i class="far fa-times-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="sidebar-menu scrollable position-relative pt-3">
+
+            <!--AnaSayfa Kısmı-->
+            <li class="nav-item dropdown">
+                <a class="nav-link wave-effect" asp-action="Index" asp-controller="OgrElemani">
+                    <span class="icon-holder">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span class="title">Anasayfa</span>
+                </a>
+            </li>
+
+            <!--Ders Menüsü-->
+            <li class="nav-item dropdown">
+                <a class="nav-link wave-effect" href="#">
+                    <span class="icon-holder">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span class="title">Ders İşlemleri</span>
+                    <span class="arrow">
+                        <i class="fas fa-angle-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="sidebar-link" asp-action="BolumMufredati" asp-controller="OgrElemani">Bölüm Müfredatı</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="VerilenDersler" asp-controller="OgrElemani">Verilen Dersler</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="DersProgrami" asp-controller="OgrElemani">Ders Programı</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="DersKayitOnayi" asp-controller="OgrElemani">Ders Kayıt Onayı</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!--Sınav Menüsü-->
+            <li class="nav-item dropdown">
+                <a class="nav-link wave-effect dropdown-toggle" href="#">
+                    <span class="icon-holder">
+                        <i class="fas fa-fingerprint"></i>
+                    </span>
+                    <span class="title">Sınav İşlemleri</span>
+                    <span class="arrow">
+                        <i class="fas fa-angle-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="sidebar-link" asp-action="SinavTakvimi" asp-controller="OgrElemani">Sınav Takvimi</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="SinavTanimla" asp-controller="OgrElemani">Sınav Tanımla</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="Degerlendirme" asp-controller="OgrElemani">Değerlendirme</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">
+                    <span class="icon-holder">
+                        <i class="fas fa-folder-open"></i>
+                    </span>
+                    <span class="title">Diğer İşlemler</span>
+                    <span class="arrow">
+                        <i class="fas fa-angle-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="sidebar-link" asp-action="Danismanlik" asp-controller="OgrElemani">Danışmalık</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="OzlukBilgileri" asp-controller="OgrElemani">Özlük Bilgileri</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" asp-action="Mesajlar" asp-controller="OgrElemani">Mesajlar</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container-wide">
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+                <a id="sidebar-toggle" class="sidebar-toggle nav-link" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Abdullah Elen</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Anasayfa">Oturumu Kapat</a>
+            </li>
+        </ul>
+    </nav>
+    

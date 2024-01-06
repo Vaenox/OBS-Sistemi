@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OBS_Sistemi.Web
+build_property.RootNamespace = OBS_Sistemi.Web
+build_property.ProjectDir = C:\Users\burak\Desktop\C#\MVC\Kodlar\OBS-Sistemi\OBS-Sistemi.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\burak\Desktop\C#\MVC\Kodlar\OBS-Sistemi\OBS-Sistemi.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Anasayfa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/BolumMufredati.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxCb2x1bU11ZnJlZGF0aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/Danismanlik.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxEYW5pc21hbmxpay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/Degerlendirme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxEZWdlcmxlbmRpcm1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/DersKayitOnayi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxEZXJzS2F5aXRPbmF5aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/DersProgrami.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxEZXJzUHJvZ3JhbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/OzlukBilgileri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxPemx1a0JpbGdpbGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/SinavTakvimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxTaW5hdlRha3ZpbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/SinavTanimla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxTaW5hdlRhbmltbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/OgrElemani/VerilenDersler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyRWxlbWFuaVxWZXJpbGVuRGVyc2xlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/BolumMufredati.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxCb2x1bU11ZnJlZGF0aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/DersKayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEZXJzS2F5aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/DersProgrami.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEZXJzUHJvZ3JhbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/DonemDersleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEb25lbURlcnNsZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/OzlukBilgileri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxPemx1a0JpbGdpbGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/SinavNotlari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxTaW5hdk5vdGxhcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/SinavTakvimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxTaW5hdlRha3ZpbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Ogrenci/Transkript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxUcmFuc2tyaXB0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Partials/OgrElemaniYanMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcT2dyRWxlbWFuaVlhbk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Partials/OgrenciYanMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcT2dyZW5jaVlhbk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/Desktop/C\#/MVC/Kodlar/OBS-Sistemi/OBS-Sistemi.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-92pfpjreim
