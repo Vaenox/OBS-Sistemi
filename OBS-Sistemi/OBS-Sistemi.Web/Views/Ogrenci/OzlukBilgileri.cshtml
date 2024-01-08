@@ -1,10 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Özlük Bilgileri";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
-
 }
 
+@model OBS_Sistemi.Web.Data.MainContext
 
 <!doctype html>
 <html>
@@ -24,10 +23,12 @@
 <body class="app">
     <h1 align="center">
         Özlük Bilgileri
-    </h1>
-    <p>Kullanıcı Adı: @Model.</p>
-    <p>Öğrenci Adı: @Model.StudentName</p>
-    <p>Bölüm: @Model.DepartmentName</p>
+    </h1><br />
+    <h1>Kullanıcı Bilgileri</h1>
+    <p>Kullanıcı adı: @ViewData["KullaniciAdi"]</p>
+    <p>Kullanıcı tipi: @ViewData["KullaniciTuru"]</p>
+
+    
 
 </body>
 </html>

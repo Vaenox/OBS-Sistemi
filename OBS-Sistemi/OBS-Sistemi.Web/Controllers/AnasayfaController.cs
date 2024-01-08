@@ -19,9 +19,10 @@ namespace OBS_Sistemi.Web.Controllers
 			return View();
 		}
         [HttpPost]
-        public IActionResult Index(string userName, string password) 
+        public IActionResult Index(string userName, string password, Kullanici kullanici) 
         {
-            return CheckIsUserValid(userName, password);
+              
+            return CheckIsUserValid(userName, password, kullanici.KullaniciID);
         }
         public void SaveUser(string userName, string password)
         {
@@ -37,7 +38,7 @@ namespace OBS_Sistemi.Web.Controllers
             _context.Add(newUser);
             _context.SaveChanges();
         }
-        public IActionResult CheckIsUserValid(string userName, string password)
+        public IActionResult CheckIsUserValid(string userName, string password,int kullaniciId)
 		{
 			CheckUserName(userName);
             CheckPassword(password);
@@ -66,15 +67,15 @@ namespace OBS_Sistemi.Web.Controllers
             bool isStudent = kullanici.KullaniciTuru == "Öğrenci";
             if (isStudent)
             {
-               return RedirectToAction("Index", "Ogrenci");
+               return RedirectToAction("Index", "Ogrenci", new { kullaniciId });
             }
             else if (isTeacher)
             {
-               return RedirectToAction("Index", "OgrElemani");
+               return RedirectToAction("Index", "OgrElemani", new { kullaniciId });
             }
             else 
             {
-                return RedirectToAction("Index", "Anasayfa");
+                return RedirectToAction("Index", "Anasayfa", new { kullaniciId });
             }
 
         }

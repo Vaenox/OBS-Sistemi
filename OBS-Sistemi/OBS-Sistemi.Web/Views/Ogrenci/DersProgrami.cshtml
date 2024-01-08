@@ -17,6 +17,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/next-sidebar.css" />
     <link rel="stylesheet" href="~/css/perfect-scrollbar.css" />
+
+    <style>
+    table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
 </head>
 @Html.Partial("~/Views/Partials/OgrenciYanMenu.cshtml")
 
@@ -24,6 +43,221 @@
     <h1 align="center">
         Ders Programı
     </h1>
+
+
+
+    <div class="container" name="Pazartesi">
+        <h2 class="text">Pazartesi</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Ders Saati</th>
+                    <th scope="col">Ders Kodu</th>
+                    <th scope="col">Ders Adı</th>
+                    <th scope="col">Derslik</th>
+                    <th scope="col">Öğretim Elemanı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>13:40-14:25</td>
+                    <td>YMM4122</td>
+                    <td>Yapay Zeka I</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi EMRAH DÖNMEZ</td>
+                </tr>
+                <tr>
+                    <td>14:30-15:15</td>
+                    <td>YMM4122</td>
+                    <td>Yapay Zeka I</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi EMRAH DÖNMEZ</td>
+                </tr>
+                <tr>
+                    <td>15:20-16:05</td>
+                    <td>YMM4122</td>
+                    <td>Yapay Zeka I</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi EMRAH DÖNMEZ</td>
+                </tr>
+                <tr>
+                    <td>16:10-16:55</td>
+                    <td>YMM4122</td>
+                    <td>Yapay Zeka I</td>
+                    <td>Yüksek Başarım Lab.</td>
+                    <td>Dr. Öğr. Üyesi EMRAH DÖNMEZ</td>
+                </tr>
+                <tr>
+                    <td>17:00-17:45</td>
+                    <td>YMM4122</td>
+                    <td>Yapay Zeka I</td>
+                    <td>Yüksek Başarım Lab.</td>
+                    <td>Dr. Öğr. Üyesi EMRAH DÖNMEZ</td>
+                </tr>
+               
+                <!-- Buraya daha fazla ders satırı ekleyebilirsiniz -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="container" name="Salı">
+        <h2 class="text">Salı</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Ders Saati</th>
+                    <th scope="col">Ders Kodu</th>
+                    <th scope="col">Ders Adı</th>
+                    <th scope="col">Derslik</th>
+                    <th scope="col">Öğretim Elemanı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>15:20-16:05</td>
+                    <td>MIS4101</td>
+                    <td>İş Sağlığı ve Güvenliği I</td>
+                    <td>Uzaktan Eğitim[999999]</td>
+                    <td>Doç.Dr. İSMAİL KOÇAK</td>
+                </tr>
+                <tr>
+                    <td>16:10-16:55</td>
+                    <td>MIS4101</td>
+                    <td>İş Sağlığı ve Güvenliği I</td>
+                    <td>Uzaktan Eğitim[999999]</td>
+                    <td>Doç.Dr. İSMAİL KOÇAK</td>
+                </tr>
+
+                <!-- Buraya daha fazla ders satırı ekleyebilirsiniz -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container" name="Çarşamba">
+        <h2 class="text">Çarşamba</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Ders Saati</th>
+                    <th scope="col">Ders Kodu</th>
+                    <th scope="col">Ders Adı</th>
+                    <th scope="col">Derslik</th>
+                    <th scope="col">Öğretim Elemanı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:35-10:20</td>
+                    <td>YMM4143</td>
+                    <td>Makine Öğrenmesi</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi BUKET TOPTAŞ</td>
+                </tr>
+                <tr>
+                    <td>10:25-11:10</td>
+                    <td>YMM4143</td>
+                    <td>Makine Öğrenmesi</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi BUKET TOPTAŞ</td>
+                </tr>
+                <tr>
+                    <td>11:15-12:00</td>
+                    <td>YMM4143</td>
+                    <td>Makine Öğrenmesi</td>
+                    <td>6</td>
+                    <td>Dr. Öğr. Üyesi BUKET TOPTAŞ</td>
+                </tr>
+                <tr>
+                    <td>16:10-16:55</td>
+                    <td>YMM4123</td>
+                    <td>Yazılım Test ve Doğrulama</td>
+                    <td>6</td>
+                    <td>Öğr.Gör. Abdullah ELEN</td>
+                </tr>
+
+                <!-- Buraya daha fazla ders satırı ekleyebilirsiniz -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container" name="Perşembe">
+        <h2 class="text">Perşembe</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Ders Saati</th>
+                    <th scope="col">Ders Kodu</th>
+                    <th scope="col">Ders Adı</th>
+                    <th scope="col">Derslik</th>
+                    <th scope="col">Öğretim Elemanı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:35-10:20</td>
+                    <td>YMM4150</td>
+                    <td>Veri Bilimi</td>
+                    <td>Yüksek Başarım Lab</td>
+                    <td>Dr. Öğr. Üyesi SERHAT KILIÇARSLAN</td>
+                </tr>
+                <tr>
+                    <td>10:25-11:10</td>
+                    <td>YMM4150</td>
+                    <td>Veri Bilimi</td>
+                    <td>Yüksek Başarım Lab</td>
+                    <td>Dr. Öğr. Üyesi SERHAT KILIÇARSLAN</td>
+                </tr>
+                <tr>
+                    <td>11:15-12:00</td>
+                    <td>YMM4150</td>
+                    <td>Veri Bilimi</td>
+                    <td>Yüksek Başarım Lab</td>
+                    <td>Dr. Öğr. Üyesi SERHAT KILIÇARSLAN</td>
+                </tr>
+                <tr>
+                    <td>12:50-13:35</td>
+                    <td>YMM4137</td>
+                    <td>Proje Yönetimi</td>
+                    <td>6</td>
+                    <td>Öğr.Gör.Dr. MESUT ULU</td>
+
+                </tr>
+                <tr>
+                    <td>13:40-14:25</td>
+                    <td>YMM4137</td>
+                    <td>Proje Yönetimi</td>
+                    <td>6</td>
+                    <td>Öğr.Gör.Dr. MESUT ULU</td>
+
+                </tr>
+                <tr>
+                    <td>15:20-16:05</td>
+                    <td>YMM4123</td>
+                    <td>Yazılım Test ve Doğrulama</td>
+                    <td>Yüksek Başarım Lab</td>
+                    <td>Öğr.Gör. Abdullah ELEN</td>
+
+                </tr>
+                <tr>
+                    <td>16:10-16:55</td>
+                    <td>YMM4123</td>
+                    <td>Yazılım Test ve Doğrulama</td>
+                    <td>Yüksek Başarım Lab</td>
+                    <td>Öğr.Gör. Abdullah ELEN</td>
+
+                </tr>
+
+
+                <!-- Buraya daha fazla ders satırı ekleyebilirsiniz -->
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
 
 </body>
 </html>
